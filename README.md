@@ -1,8 +1,8 @@
 # datetime-heatmap-notion
 
-## Requirement
-
-  - [Rye](https://rye.astral.sh/)
+  Generate a datetime heatmap from Notion database.
+  
+  ![heatmap](https://github.com/user-attachments/assets/8e288467-e36c-4827-9481-80803c1c9d15)
 
 ## Setup
 
@@ -13,6 +13,13 @@
   ```bash
   $ rye sync
   $ rye run python src/main.py
+  ```
+
+  or 
+
+  ```bash
+  $ pip install -r requirements.txt
+  $ python src/main.py
   ```
 
 ## License
